@@ -1,0 +1,63 @@
+.geral{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px ;
+}
+
+.foto{
+   justify-content: left;
+    border-radius: 10px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.texto1{
+    position: absolute;
+    bottom: 200px;
+    font-size: 20px;
+    right: 5px;
+    width:800px;
+    height: 150px;
+    color: #120404;
+    font-family: 'Inter';
+    font-style: italic;
+
+}
+
+.texto2{
+    position: absolute;
+    font-size: 20px;
+    width:600px;
+    right: 50px;
+    height: 150px;
+    color: #64660D;
+    font-family: 'Inter';
+    font-style: italic;
+}
+
+
+
+.botao{
+    position: absolute;
+    width: 288px;
+    height: 48px;
+    left: 1100px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #E7EB24;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+
+}
+
+
+
