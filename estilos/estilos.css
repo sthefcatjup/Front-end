@@ -59,5 +59,11 @@
 
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
 
-
+.nav-item {
+    margin: 80px;
+}
