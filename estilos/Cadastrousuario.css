@@ -1,3 +1,12 @@
+    .Botoes{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   width: 429px;
+   height: 60px;
+
+    }
+
 .container {
     display: flex;
     align-items: center; 
@@ -43,7 +52,7 @@
   }
   
   .form-control input {
-    border: 2px solid #7F0000;
+    border: 2px solid #BDBF45;
     display: flex;
     border-radius: 1rem;
     font-size: 1.4rem;
@@ -105,7 +114,7 @@
     font-size: 1.4rem; 
     height: 4rem;
     border-radius: 1rem;
-    border: 2px solid #7F0000;
+    border: 2px solid #BDBF45;
     color: #7F0000; 
     text-align: center; 
 } 
@@ -123,6 +132,7 @@
 #valEstado {
   width: 60%; 
   margin-right: 1rem;
+  border:#BDBF45;
 }
 
 #valNum {
