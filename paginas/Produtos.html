@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <meta charset='UTF-8'>
+        <!-- 
+            Viewport é a área onde seu website aparece, aqui é possível definir o viewport com a largura do dispositivo e initial-scale define o nível de zoom inicial quando o usuário visita a página. 
+        -->
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+        <link rel='stylesheet' href='../estilos/reset.css'>
+        <link rel='stylesheet' href='../estilos/global.css'>
+        <link rel='stylesheet' href='../estilos/nav.css'>
+        <link rel='stylesheet' href='../estilos/produtos.css'>
+        <title>Buy more</title>
+    </head>
+    <body>
+        <header>
+            <!-- Logo e navegaçãp -->  
+            <nav class="containerNav">
+                <div class="menu">
+                    <div>
+                        <span class="material-icons icon" id="logo">
+                            Produtos
+                        </span>        
+                        <label for="" id="titulo">BomBurguer</label>
+                    </div>                      
+                    <div class="menuGrande">
+                        <a href="..index.html">Home</a>                  
+                        <a href="#" class="active">Produtos</a>
+                        <a href="../paginas/Cadastrousuario.html">Cadastrar</a>
+                        <a href="../paginas/contato.html">Contato</a>
+                        <a href="../paginas/Login.html">Login</a>
+                    </div>
+                    <div class="menuMobile">
+                        <a href="javascript:void(0);" class="icon" id="mIco">
+                            <span class="material-icons icon" id="menu">
+                                menu
+                            </span>
+                        </a>
+                    </div>                    
+                </div>  
+                <div class="menuMobileExpandidon" id="mostraOpMobile">  
+                    <a href="../index.html">Home</a>                  
+                    <a href="#" class="active">Produtos</a>
+                    <a href="../paginas/cadUsuario.html">Cadastrar</a>
+                    <a href="../paginas/contato.html">Contato</a>
+                    <a href="../paginas/login.html">Login</a>
+                </div>               
+            </nav>          
+        </header>
+
+        <div class="menuPesquisa">
+            <div class="opPesquisa">
+                <select name="tipoProd" id="tipo">
+                    <option selected value="0">-</option>
+                    <option value="1">Lanche</option>
+                    <option value="2">Bebida</option>
+                    <option value="3">Porção</option>
+                    <option value="3">Sobremesa</option>
+                </select>
+            </div>
+            <div class="valorPesquisa">
+                <input type="text">
+                <span class="material-icons icon">
+                    search
+                </span>
+            </div>
+        </div>
+
+        <div class="produtos">
+            <!-- Alguns produtos -->
+            <div class="cardProd">
+                <img src="../imagens/temp/hamburger-bacon.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/hamburger-batata.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/lanche1.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/suco2.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/suco-laranja.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/sorvete.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/lanche2.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/macarrao.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+            <div class="cardProd">
+                <img src="../imagens/temp/salada.jpg" alt="">
+                <span class="descricao">Lanche</span>
+                <span>R$ 0,00</span>
+            </div>
+        </div>
+
+        <div class="paginacao">
+            <span class="material-icons pags">
+                arrow_back_ios
+            </span>
+            <p>Página 1 de 5</p>
+            <span class="material-icons pags">                
+                arrow_forward_ios
+            </span>
+        </div>
+
+        <footer class="rodape">
+            <!-- Dados local -->
+            <div class="social">
+                <img src="../imagens/icones/facebook.svg" alt="facebook">
+                <img src="../imagens/icones/telegram.svg" alt="">
+                <img src="../imagens/icones/whatsapp.svg" alt="">
+                <img src="../imagens/icones/tiktok.svg" alt="">
+            </div>
+            <p>Lanches BomNurguer de Cidade ME | 00.000.000/0000-00</p>
+            <p>Rua Brasil, 1000 - centro - Parapuã/SP | bbgr@bbuguer.com</p>
+        </footer>
+
+        <script src='../scripts/nav.js'></script>
+    </body>
+</html>
