@@ -1,0 +1,14 @@
+.containerContato {
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+    border: solid 0.5rem #BDBF45; 
+    margin: 0 auto;
+    margin-top: 1rem; 
+    padding: 1rem;
+    border-radius: 2rem; 
+    color: #BDBF45; 
+    width: 92%;
+    max-width: 1100px;     
+} 
+
